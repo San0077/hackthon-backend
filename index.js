@@ -7,7 +7,7 @@ import {logins} from './loginrouter.js'
 
 
 //variables
-var app = express()
+var app = express()  
 dotenv.config()
 app.use(express.json());
 app.use(cors())
