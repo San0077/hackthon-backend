@@ -30,9 +30,9 @@ app.use("/home",home)
 app.use("/bookYourSeats",bookYourSeats)
 app.use("/bookYourSeats",getonemovie)
 app.use("/signup",signup)
-app.use("/login",logins)
-//book your seats
 
+//book your seats
+app.use("/login",logins)
 
 // addMovie
 app.post("/admin/addMovie",async function(req,res){
