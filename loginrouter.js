@@ -25,8 +25,8 @@ login.post("/",async function(req,res){
         var transfer = nodemailer.createTransport({
             service:"hotmail",
             auth:{
-               user:"santhoshbalaji304@gmail.com",
-               pass:"santhosh1234"
+               user:"example@gmail.com",
+               pass:"sljdjshds"
             }
          
           
